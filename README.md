@@ -1,4 +1,4 @@
-# CSCI3172 Web Centric Computing
+# Web Centric Computing
 
 Eleusinia is an ecommerce web application that provides a platform for agricultural producers to sell their produce to local consumers. Our platform connects producers with consumers and allows them to make secure transactions. The website offers multiple assorted boxes of preselected produce options as well as individual produce options. Our website also displays a wide range of recipes to compliment some of our assorted boxes. 
 
