@@ -1,0 +1,32 @@
+form {
+    border: 1px solid lightgrey;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1 0 120px;
+    max-width: 220px;
+    justify-content: flex-start;
+    padding: 80px;
+    height: 325px;
+    background-color: white;
+    margin-left: 50px;
+}
+
+input[type="submit"]{
+    background-color: #C5E86C;
+    border: none;
+    margin-top: 5px;
+    border-radius: 15%;
+    font-size: 15px;
+    padding: 10px;
+}
+
+button[type="register"]{
+    background-color: #C5E86C;
+    border: none;
+    margin-top: 5px;
+    border-radius: 15%;
+    font-size: 15px;
+    padding: 10px;
+}

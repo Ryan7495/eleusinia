@@ -1,0 +1,46 @@
+{
+  "name": "csci3172_group3",
+  "version": "1.0.0",
+  "description": "Eleusinia is an ecommerce web application that provides a platform for agricultural producers to sell their produce to local consumers. Our platform connects producers with consumers and allows them to make secure transactions. The website offers multiple assorted boxes of preselected produce options as well as individual produce options. Our website also displays a wide range of recipes to compliment some of our assorted boxes.",
+  "main": "server.js",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "bcrypt": "^4.0.1",
+    "concurrently": "^5.1.0",
+    "cookie-parser": "^1.4.5",
+    "cookie-session": "^1.4.0",
+    "cors": "^2.8.5",
+    "email-validation": "^0.1.2",
+    "email-validator": "^2.0.4",
+    "express": "^4.17.1",
+    "express-basic-auth": "^1.2.0",
+    "express-session": "^1.17.0",
+    "jsonwebtoken": "^8.5.1",
+    "mariadb": "^2.3.1",
+    "multer": "^1.4.2",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.1.0",
+    "package.json": "^2.0.1",
+    "passport": "^0.4.1",
+    "react-password-strength-bar": "^0.3.2",
+    "react-scripts": "^3.4.1",
+    "routes": "^2.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3",
+    "sequelize": "^5.21.5"
+  },
+  "scripts": {
+    "server": "nodemon server.js",
+    "client-install": "npm install --prefix client",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.cs.dal.ca/sawchuk/csci3172_group3.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

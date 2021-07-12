@@ -1,0 +1,31 @@
+@font-face {
+  font-family: 'Cotham';
+  src: local('Cotham'), url(./fonts/CothamSans.otf) format('opentype');
+}
+
+/* Green Accent Color: C5E86C */
+
+html {
+  background-color: #ffffff;
+}
+
+body {
+  margin: 0;
+  font-family: Cotham;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+body, html, .Login {
+  height: 100%;
+  margin: 0;
+}
+
+
+
+

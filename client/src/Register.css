@@ -1,0 +1,23 @@
+form {
+    border: 1px solid lightgrey;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex: 1 0 120px;
+    max-width: 220px;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    padding: 80px;
+    height: 400px;
+}
+
+input[type="submit"]{
+    background-color: #C5E86C;
+    border: none;
+    margin-top: 15px;
+    border-radius: 15%;
+    font-size: 15px;
+    padding: 10px;
+}
